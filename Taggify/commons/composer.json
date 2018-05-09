@@ -2,13 +2,13 @@
     "name": "taggify/commons",
     "description": "Common libs",
     "keywords": ["lib", "commons"],
-    "homepage": "https://bitbucket.org/taggify/commons",
+    "homepage": "https://github.com/NicolasTaglienti/taggify-commons",
     "type": "library",
     "license": "proprietary",
     "authors": [
         {
-            "name": "Sebastian Choren",
-            "email": "schoren@taggify.net"
+            "name": "Nicolas Taglienti",
+            "email": "ntaglienti@taggify.net"
         }
     ],
     "autoload": {
