@@ -1,0 +1,27 @@
+{
+    "name": "taggify/commons",
+    "description": "Common libs",
+    "keywords": ["lib", "commons"],
+    "homepage": "https://github.com/NicolasTaglienti/taggify-commons",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "nicolasTaglienti",
+            "email": "ntaglienti@taggify.net"
+        }
+    ],
+  "autoload": {
+        "psr-4": { "Taggify\\Common\\": "src/Taggify/Common" }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "ext-mcrypt": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
